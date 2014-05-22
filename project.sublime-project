@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		}
+	],
+	"build_systems":
+    [
+        {
+            "name": "Custom python build script.",
+            "cmd": ["python", "build.py"]
+        }
+    ]
+}
