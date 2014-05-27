@@ -1,13 +1,13 @@
 import glob
 import os
 
-arm_none_path 	= '/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/arm-none-eabi/bin';
-arm_none_as 	= arm_none_path + '/arm-none-eabi-as'
-arm_none_gcc 	= arm_none_path + '/arm-none-eabi-gcc'
-arm_none_copy 	= arm_none_path + '/arm-none-eabi-objcopy'
+arm_none_path	= '/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/arm-none-eabi/bin';
+arm_none_as		= arm_none_path + '/arm-none-eabi-as'
+arm_none_gcc	= arm_none_path + '/arm-none-eabi-gcc'
+arm_none_copy	= arm_none_path + '/arm-none-eabi-objcopy'
 
-asm_files 		= glob.glob("*.s")
-c_files 		= glob.glob("*.c")
+asm_files		= glob.glob("*.s")
+c_files			= glob.glob("*.c")
 linker_files	= glob.glob("*.ld")
 
 hex_file_name	= 'main'
